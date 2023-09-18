@@ -4,7 +4,7 @@
   },
   "email": "user1@example.com",
   "password": "password1",
-  "username": "user_1"
+  "userName": "user_1"
 },
 {
   "_id": {
@@ -12,7 +12,7 @@
   },
   "email": "user2@example.com",
   "password": "password2",
-  "username": "user_2"
+  "userName": "user_2"
 },
 {
   "_id": {
@@ -20,7 +20,7 @@
   },
   "email": "user3@example.com",
   "password": "password3",
-  "username": "user_3"
+  "userName": "user_3"
 },
 {
   "_id": {
@@ -28,7 +28,7 @@
   },
   "email": "user4@example.com",
   "password": "password4",
-  "username": "user_4"
+  "userName": "user_4"
 },
 {
   "_id": {
@@ -36,5 +36,5 @@
   },
   "email": "user5@example.com",
   "password": "password5",
-  "username": "user_5"
+  "userName": "user_5"
 }]

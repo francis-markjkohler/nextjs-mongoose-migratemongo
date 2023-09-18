@@ -4,7 +4,7 @@ const config = {
   mongodb: {
     url: "mongodb://127.0.0.1:27017",
 
-    databaseName: "Tax&Legal-360",
+    databaseName: "app",
 
     options: {
       useNewUrlParser: true, // removes a deprecation warning when connecting

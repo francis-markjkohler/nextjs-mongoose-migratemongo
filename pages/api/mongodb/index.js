@@ -1,13 +1,12 @@
 import connectDB from "@/db/db";
 
 async function handler (req,res) {
-    try{
-        await connectDB()
-        console.log('connected to db')
-    }catch (e) {
-        console.log('error')
-    }
+    if(res.method === "GET")
 
+     await connectDB()
+        console.log('connected to db')
+
+await res.status(200).json({message:'successful'})
 
 }
 
